@@ -17,6 +17,6 @@ public class Main {
     }
 
     public static void time2(Marathon<? extends Number, ? extends Number> r2){
-        System.out.println("Бегун  пробежал полумарафон за " + r2.getDistance().doubleValue()/r2.getSpeed().doubleValue() + "ч");
+        System.out.println("Бегун пробежал полумарафон за " + r2.getDistance().doubleValue()/r2.getSpeed().doubleValue() + "ч");
     }
 }

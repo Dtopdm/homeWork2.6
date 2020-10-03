@@ -19,6 +19,7 @@ public class Marathon<T extends Number, S extends Number> implements Runnable<T,
 
     @Override
     public void runner(T distance, S speed) {
+        double time = distance.doubleValue()/speed.doubleValue();
 
     }
 }
